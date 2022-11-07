@@ -7,4 +7,5 @@
         $bd = new PDO($dsn,$usuario,$clave);
      }catch (PDOException $e) {
         echo 'Mensaje de la excepción: ' . $e->getMessage();
+        exit();
     }
