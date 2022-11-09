@@ -9,7 +9,18 @@
 
     $app = new Controller();
     //defino variable de petición en la url
+
+    //1- recoger el metodo que pasan como parámetro y si no especifican ningún cargar el método home
     if(isset($_GET["method"])){
         $method =  $_GET["method"]; //show, find, create, update...
-        $app-> $method;
+    }else{
+        $method = "home";
+    }
+
+    //2 - verificar que el método introducido existe
+    if(method_exists($app, $method)){
+        $app->$method();
+    }else{
+        http_response_code(404);
+        die("Método no encontrado"); //exit
     }
