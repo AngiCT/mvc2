@@ -17,9 +17,9 @@
         return Product::PRODUCTS;
     }
     //devolver un producto en particulas
-    public function find($id)
+    public static function find($id)
     {
-        return Product::PRODUCTS[$id-1];
+        return Product::PRODUCTS[$id - 1];
     }
 
     }
