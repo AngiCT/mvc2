@@ -2,8 +2,6 @@
     require_once "Product.php";
  class Controller
  {
-     
-
      function __construct()
      {
          //const vacío

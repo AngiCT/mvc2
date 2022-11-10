@@ -1,12 +1,14 @@
 <?php
-    echo'<h2>Contenido PRIVADO</h2>';
-    require_once "../Controller.php";
+    //echo'<h2>Contenido PRIVADO</h2>';
 
+    require_once "core/App.php";
+
+    $app = new App();
     // /recurso/accion/parametro
     // recurso : controladores
     // accion : métodos de los controladores . controlador-> show()
     // parametros : find -> id de producto.
-
+/*
     $app = new Controller();
     //defino variable de petición en la url
 
@@ -24,3 +26,4 @@
         http_response_code(404);
         die("Método no encontrado"); //exit
     }
+*/
