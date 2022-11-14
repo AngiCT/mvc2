@@ -13,9 +13,9 @@
         <tr>
             <td>Identificador: <?= $product[0] ?></td>
             <td>Descripción: <?= $product[1] ?></td>
-            <td><a href="?method=show&id= <?= $product[0]?>">Ver detalles</a></td>
+            <td><a href="product/show?id= <?= $product[0]?>">Ver detalles</a></td>
         </tr>
-        <?php endforeach; ?>
+        <?php endforeach;?>
     </table>
 </body>
 </html>
