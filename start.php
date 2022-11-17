@@ -1,6 +1,6 @@
 <?php
     //echo'<h2>Contenido PRIVADO</h2>';
-
+    
     require_once "core/App.php";
 
     $app = new App();

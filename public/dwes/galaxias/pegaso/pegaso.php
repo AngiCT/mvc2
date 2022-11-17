@@ -15,6 +15,6 @@ class Galaxia{
         echo '<br>Soy una GALAXIA NUEVA';
     }
     static function muerte(){
-        echo'<br>Me ESTOY DESTRUYENDO';
+        echo'<br>Me ESTOY DESTRUYENDO7';
     }
 }
