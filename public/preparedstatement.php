@@ -20,6 +20,7 @@
 
      $nombre = "Angela";
      $clave1 = "klk";
+     //Cuando la sentencia va por (? , ?)
      //$sentencia->bindValue(1,$nombre);
      //$sentencia->bindValue(2,$clave1);
     $sentencia->bindParam(":nombre", $nombre);
