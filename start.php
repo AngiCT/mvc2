@@ -2,9 +2,9 @@
     
     //echo'<h2>Contenido PRIVADO</h2>';
     
-    require_once "core/App.php";
+    require_once "login/login.php";
 
-    $app = new \Core\App();
+    //$app = new \Core\App();
     // /recurso/accion/parametro
     // recurso : controladores
     // accion : métodos de los controladores . controlador-> show()
