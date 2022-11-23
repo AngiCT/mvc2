@@ -1,5 +1,5 @@
 <?php
- 
+ use PDO;
  $dsn = "mysql:dbname=agenda;host=db";
  $usuario = "root";
  $clave = "password";
