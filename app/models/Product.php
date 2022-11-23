@@ -1,5 +1,5 @@
 <?php
-
+    namespace App\Models;
     //Fichero que simula el modelo con datos
     class Product{
         const PRODUCTS = [

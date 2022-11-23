@@ -2,8 +2,8 @@
     
     //echo'<h2>Contenido PRIVADO</h2>';
     
-    require_once "core/App.php";
-
+    //require_once "core/App.php";
+    require 'vendor/autoload.php';
     $app = new \Core\App();
     // /recurso/accion/parametro
     // recurso : controladores
