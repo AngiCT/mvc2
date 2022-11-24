@@ -11,7 +11,7 @@
         <h2>BIENVENIDO</h2>
         <?php
             include("conexion_bd.php");
-            //include("controlador.php");
+            include("controlador.php");
         ?>
         <div>
             <h5>Usuario</h5>
